@@ -52,6 +52,8 @@ In the unlikely event that the WIFI credentials are wrong, the device will try
 to connect to a backup WIFI with SSID _mgos-recover_ and password _RJoPuKC3u5_,
 which you can use for recovery.
 
+Note: the dl.dasker.eu URLs in the table below have become inoperable. Pick up the release ZIP you need from the repo this was forked from, put it on some public web server, and replace the URL in the table below with the public URL of your chosen location.
+
 Device | Update URL | Tasmota Template
 --- | --- | ---
 Shelly 1        | `http://shellyip/ota?url=http://dl.dasker.eu/firmware/mg2tasmota-Shelly1.zip`       | `{"NAME":"Shelly 1","GPIO":[0,0,0,0,21,82,0,0,0,0,0,0,0],"FLAG":0,"BASE":46}`
